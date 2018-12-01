@@ -7,3 +7,6 @@
 
 https://www.w3cschool.cn/shiro/xgj31if4.html
 https://github.com/zhangkaitao/shiro-example
+
+-[springboot商城]
+(https://github.com/xubinux/xbin-store)
