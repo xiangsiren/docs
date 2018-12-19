@@ -13,3 +13,4 @@
 - [niushop商城](http://www.niushop.com.cn/)
 - [oneinstack](https://oneinstack.com/)
 - [bootdo](http://www.bootdo.com/)
+- [fastadmin](https://www.fastadmin.net/)
