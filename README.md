@@ -15,4 +15,5 @@
 - [bootdo](http://www.bootdo.com/)
 - [fastadmin](https://www.fastadmin.net/)
 - [crossoverJie](https://github.com/crossoverJie/SSM)
+- [micro-fast微服务解决方案](https://gitee.com/kklt1996/micro-fast)
 
