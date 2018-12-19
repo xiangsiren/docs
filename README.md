@@ -12,4 +12,4 @@
 - [springboot商城](https://github.com/macrozheng/mall)
 - [niushop商城](http://www.niushop.com.cn/)
 - [oneinstack](https://oneinstack.com/)
-- [niushop商城](http://www.niushop.com.cn/)
+- [bootdo](http://www.bootdo.com/)
