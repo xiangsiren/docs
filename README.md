@@ -14,3 +14,5 @@
 - [oneinstack](https://oneinstack.com/)
 - [bootdo](http://www.bootdo.com/)
 - [fastadmin](https://www.fastadmin.net/)
+- [crossoverJie](https://github.com/crossoverJie/SSM)
+
