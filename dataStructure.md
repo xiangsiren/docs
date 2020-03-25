@@ -43,11 +43,11 @@
    - 孩子表示法
    - 孩子兄弟表示法
 
+   https://www.jianshu.com/p/30fdd6faea79 
+
 5. 一发送到
 
 6. 是的方法
-
-   [参考地址]: https://www.jianshu.com/p/30fdd6faea79
 
 7. 二位无
 
