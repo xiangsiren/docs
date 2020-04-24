@@ -1,6 +1,6 @@
 1. 控制反转（IOC）：有两种方式，一种DI(Dependency Injection)依赖注入，软件实体被动接受其依赖的其他组件被 IoC 容器注入；一种DL，Dependency Lookup（依赖查找）软件实体主动去某个服务注册地查找其依赖的那些服务
 
-2. springboot aop 可以实现业务代码与系统级服务例如日志记录，事务及安全相关的解耦，使代码更加干净整洁
+2. 嗯嗯嗯
 
 3. resful 即表述层状态转移（Representational State Transfer)
 
