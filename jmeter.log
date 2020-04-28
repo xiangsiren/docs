@@ -1,260 +1,44 @@
-2020-04-21 20:00:27,802 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
-2020-04-21 20:00:27,829 INFO o.a.j.JMeter: Loading user properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/user.properties
-2020-04-21 20:00:27,829 INFO o.a.j.JMeter: Loading system properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/system.properties
-2020-04-21 20:00:27,833 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: Version 5.1.1 r1855137
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: java.version=1.8.0_191
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: os.name=Mac OS X
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: os.arch=x86_64
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: os.version=10.15.3
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: file.encoding=UTF-8
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: java.awt.headless=null
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: Max memory     =1073741824
-2020-04-21 20:00:27,834 INFO o.a.j.JMeter: Available Processors =8
-2020-04-21 20:00:27,838 INFO o.a.j.JMeter: Default Locale=English (EN)
-2020-04-21 20:00:27,838 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
-2020-04-21 20:00:27,838 INFO o.a.j.JMeter: JMeterHome=/Users/ren/Documents/tools/apache-jmeter-5.1.1
-2020-04-21 20:00:27,838 INFO o.a.j.JMeter: user.dir  =/Users/ren/Desktop/web/docs
-2020-04-21 20:00:27,838 INFO o.a.j.JMeter: PWD       =/Users/ren/Desktop/web/docs
-2020-04-21 20:00:27,840 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: rens-MacBook-Pro.local FullName: localhost
-2020-04-21 20:00:29,157 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
-2020-04-21 20:00:29,168 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
-2020-04-21 20:00:29,168 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
-2020-04-21 20:00:29,232 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2020-04-21 20:00:30,571 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-21 20:00:30,571 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-21 20:00:30,571 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-21 20:00:30,572 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-21 20:00:30,572 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2020-04-21 20:00:30,572 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2020-04-21 20:00:30,855 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2020-04-21 20:00:30,855 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
-2020-04-21 20:00:30,992 INFO o.a.j.s.FileServer: Default base='/Users/ren/Desktop/web/docs'
-2020-04-21 20:00:31,246 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2020-04-21 20:00:31,246 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2020-04-21 20:00:31,246 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2020-04-21 20:00:31,246 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2020-04-21 20:00:41,443 INFO o.a.j.g.a.Load: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
-2020-04-21 20:00:41,443 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'
-2020-04-21 20:00:41,551 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2020-04-21 20:00:41,561 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2020-04-21 20:00:41,563 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2020-04-21 20:00:41,565 INFO o.a.j.s.SaveService: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
-2020-04-21 20:00:41,814 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'
-2020-04-21 20:04:53,384 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2020-04-21 20:04:53,385 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2020-04-21 20:04:53,651 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
-2020-04-21 20:04:53,651 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
-2020-04-21 20:04:53,652 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8080
-2020-04-21 20:04:53,659 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
-2020-04-21 20:05:30,765 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
-2020-04-21 20:05:30,897 INFO o.a.j.p.h.p.Proxy: [62150]  KeyStore for SSL loaded OK and put host 'p44-caldav.icloud.com' in map with key (p44-caldav.icloud.com)
-2020-04-21 20:05:31,062 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = rens-MacBook-Pro.local
-2020-04-21 20:05:31,069 INFO o.a.j.p.h.p.Proxy: [62151]  KeyStore for SSL loaded OK and put host 'access-sngapm.qcloud.com' in map with key (access-sngapm.qcloud.com)
-2020-04-21 20:05:31,071 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2020-04-21 20:05:31,180 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2020-04-21 20:05:31,184 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2020-04-21 20:05:31,184 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2020-04-21 20:05:31,219 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2020-04-21 20:05:31,219 INFO o.a.j.u.SSLManager: KeyStore created OK
-2020-04-21 20:05:31,220 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2020-04-21 20:05:31,402 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-04-21 20:05:32,842 INFO o.a.j.p.h.p.Proxy: [62154]  KeyStore for SSL loaded OK and put host 'clients1.google.com' in map with key (clients1.google.com)
-2020-04-21 20:05:50,474 INFO o.a.j.p.h.p.Proxy: [62160]  KeyStore for SSL loaded OK and put host 'h-adashx.ut.taobao.com' in map with key (h-adashx.ut.taobao.com)
-2020-04-21 20:05:50,745 INFO o.a.j.p.h.p.Proxy: [62161]  KeyStore for SSL loaded OK and put host 'suggestion.baidu.com' in map with key (suggestion.baidu.com)
-2020-04-21 20:05:55,640 INFO o.a.j.p.h.p.Proxy: [62180]  KeyStore for SSL loaded OK and put host 'count.typora.io' in map with key (count.typora.io)
-2020-04-21 20:06:10,553 INFO o.a.j.p.h.p.Proxy: [62191]  KeyStore for SSL loaded OK and put host 'saas-test.banmacang.com' in map with key (saas-test.banmacang.com)
-2020-04-21 20:06:14,004 INFO o.a.j.p.h.p.Proxy: [62199]  KeyStore for SSL loaded OK and put host 'banji-test.banmacang.com' in map with key (banji-test.banmacang.com)
-2020-04-21 20:08:15,522 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
-2020-04-21 20:10:29,012 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
-2020-04-21 20:10:29,012 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
-2020-04-21 20:10:29,012 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8080
-2020-04-21 20:10:29,012 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
-2020-04-21 20:10:45,484 INFO o.a.j.p.h.p.ProxyControl: [62292]  Creating entry gm.mmstat.com in /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
-2020-04-21 20:10:47,008 INFO o.a.j.p.h.p.Proxy: [62292]  KeyStore for SSL loaded OK and put host 'gm.mmstat.com' in map with key (gm.mmstat.com)
-2020-04-21 20:13:11,788 INFO o.a.j.p.h.p.Proxy: [62367]  KeyStore for SSL loaded OK and put host 'www.baidu.com' in map with key (www.baidu.com)
-2020-04-21 20:13:13,023 INFO o.a.j.p.h.p.Proxy: [62370]  KeyStore for SSL loaded OK and put host 'ss0.baidu.com' in map with key (ss0.baidu.com)
-2020-04-21 20:13:13,031 INFO o.a.j.p.h.p.Proxy: [62373]  KeyStore for SSL loaded OK and put host 'ss3.baidu.com' in map with key (ss3.baidu.com)
-2020-04-21 20:13:13,040 INFO o.a.j.p.h.p.Proxy: [62372]  KeyStore for SSL loaded OK and put host 'ss2.baidu.com' in map with key (ss2.baidu.com)
-2020-04-21 20:13:13,051 INFO o.a.j.p.h.p.Proxy: [62371]  KeyStore for SSL loaded OK and put host 'ss1.baidu.com' in map with key (ss1.baidu.com)
-2020-04-21 20:13:25,058 ERROR o.a.j.p.h.p.Proxy: 
-java.net.SocketException: Broken pipe (Write failed)
-	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_191]
-	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111) ~[?:1.8.0_191]
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:155) ~[?:1.8.0_191]
-	at sun.security.ssl.OutputRecord.writeBuffer(OutputRecord.java:431) ~[?:1.8.0_191]
-	at sun.security.ssl.OutputRecord.write(OutputRecord.java:417) ~[?:1.8.0_191]
-	at sun.security.ssl.SSLSocketImpl.writeRecordInternal(SSLSocketImpl.java:879) ~[?:1.8.0_191]
-	at sun.security.ssl.SSLSocketImpl.writeRecord(SSLSocketImpl.java:850) ~[?:1.8.0_191]
-	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:123) ~[?:1.8.0_191]
-	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:122) ~[?:1.8.0_191]
-	at java.io.FilterOutputStream.write(FilterOutputStream.java:97) ~[?:1.8.0_191]
-	at org.apache.jmeter.protocol.http.proxy.Proxy.writeToClient(Proxy.java:486) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:244) [ApacheJMeter_http.jar:5.1.1 r1855137]
-2020-04-21 20:13:25,062 ERROR o.a.j.p.h.p.Proxy: [62484]  Exception when processing sample
-java.net.SocketException: Broken pipe (Write failed)
-	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_191]
-	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111) ~[?:1.8.0_191]
-	at java.net.SocketOutputStream.write(SocketOutputStream.java:155) ~[?:1.8.0_191]
-	at sun.security.ssl.OutputRecord.writeBuffer(OutputRecord.java:431) ~[?:1.8.0_191]
-	at sun.security.ssl.OutputRecord.write(OutputRecord.java:417) ~[?:1.8.0_191]
-	at sun.security.ssl.SSLSocketImpl.writeRecordInternal(SSLSocketImpl.java:879) ~[?:1.8.0_191]
-	at sun.security.ssl.SSLSocketImpl.writeRecord(SSLSocketImpl.java:850) ~[?:1.8.0_191]
-	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:123) ~[?:1.8.0_191]
-	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:122) ~[?:1.8.0_191]
-	at java.io.FilterOutputStream.write(FilterOutputStream.java:97) ~[?:1.8.0_191]
-	at org.apache.jmeter.protocol.http.proxy.Proxy.writeToClient(Proxy.java:486) ~[ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:244) [ApacheJMeter_http.jar:5.1.1 r1855137]
-2020-04-21 20:13:25,062 WARN o.a.j.p.h.p.Proxy: [62484]  Exception while writing error
-java.net.SocketException: Socket is closed
-	at sun.security.ssl.SSLSocketImpl.getOutputStream(SSLSocketImpl.java:2261) ~[?:1.8.0_191]
-	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:561) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:261) [ApacheJMeter_http.jar:5.1.1 r1855137]
-2020-04-21 20:13:25,912 INFO o.a.j.p.h.p.Proxy: [62509]  KeyStore for SSL loaded OK and put host 'cambrian-images.cdn.bcebos.com' in map with key (cambrian-images.cdn.bcebos.com)
-2020-04-21 20:13:25,925 INFO o.a.j.p.h.p.Proxy: [62512]  KeyStore for SSL loaded OK and put host 'sp0.baidu.com' in map with key (sp0.baidu.com)
-2020-04-21 20:13:25,939 INFO o.a.j.p.h.p.Proxy: [62511]  KeyStore for SSL loaded OK and put host 'sp1.baidu.com' in map with key (sp1.baidu.com)
-2020-04-21 20:13:25,971 WARN o.a.j.p.h.p.HttpRequestHdr: Url 'https://sp0.baidu.com:443/5bU_dTmfKgQFm2e88IuM_a/w.gif?q=jmeter+%B0%FC%BA%AC%C4%A3%CA%BD&fm=se&T=1587471205&y=FFEFDFFB&rsv_cache=0&rsv_tpfail=1&rsv_pstg=20&rsv_prw=jmeter%20%E5%8C%85%E5%90%AB%E6%A8%A1%E5%BC%8F&rsv_svoice=1&rsv_pre=31&rsv_reh=231_85_105_85_85_85_85_85_85_85|359&rsv_scr=1411_1589_24_10_900_1440&rsv_psid=6CA257FA45F9EBF926A6A76CB7C7C2D0&rsv_pstm=1547701276&rsv_idc=&rsv_sid=&cid=0&qid=f100ad8e00093169&t=1587471205893&rsv_pstg=20&rsv_cftime=1&rsv_iorr=1&rsv_tn=baiduhome_pg&rsv_ssl=1&path=https%3A%2F%2Fwww.baidu.com%2Fs%3Fie%3Dutf-8%26f%3D8%26rsv_bp%3D1%26rsv_idx%3D2%26tn%3Dbaiduhome_pg%26wd%3Djmeter%2520%25E5%258C%2585%25E5%2590%25AB%25E6%25A8%25A1%25E5%25BC%258F%26rsv_spt%3D1%26oq%3Djmeter%252520%2525E5%2525BD%252595%2525E5%252588%2525B6%252520java.net.Socket%252526gt%25253Bxception%25253A%252520Socket%252520closed%252520at%252520java.net.PlainSocketI%26rsv_pq%3De3fc6908000404bc%26rsv_t%3D761avbtp3IY%252BLh32QisZjrAuGy0YqbUXCHexQ7DnKJDt3dgRUBrOpF%252FZobW2pzwiDT5F%26rqlang%3Dcn%26rsv_enter%3D1%26rsv_dl%3Dtb%26rsv_sug3%3D30%26rsv_sug1%3D14%26rsv_sug7%3D100%26rsv_sug2%3D0%26rsv_btype%3Dt%26inputT%3D12411%26rsv_sug4%3D13644&rsv_did=a609d9bd0fbc3c809c6288b8bb092ea2' contains unsafe characters, will escape it, message:Illegal character in query at index 273: https://sp0.baidu.com:443/5bU_dTmfKgQFm2e88IuM_a/w.gif?q=jmeter+%B0%FC%BA%AC%C4%A3%CA%BD&fm=se&T=1587471205&y=FFEFDFFB&rsv_cache=0&rsv_tpfail=1&rsv_pstg=20&rsv_prw=jmeter%20%E5%8C%85%E5%90%AB%E6%A8%A1%E5%BC%8F&rsv_svoice=1&rsv_pre=31&rsv_reh=231_85_105_85_85_85_85_85_85_85|359&rsv_scr=1411_1589_24_10_900_1440&rsv_psid=6CA257FA45F9EBF926A6A76CB7C7C2D0&rsv_pstm=1547701276&rsv_idc=&rsv_sid=&cid=0&qid=f100ad8e00093169&t=1587471205893&rsv_pstg=20&rsv_cftime=1&rsv_iorr=1&rsv_tn=baiduhome_pg&rsv_ssl=1&path=https%3A%2F%2Fwww.baidu.com%2Fs%3Fie%3Dutf-8%26f%3D8%26rsv_bp%3D1%26rsv_idx%3D2%26tn%3Dbaiduhome_pg%26wd%3Djmeter%2520%25E5%258C%2585%25E5%2590%25AB%25E6%25A8%25A1%25E5%25BC%258F%26rsv_spt%3D1%26oq%3Djmeter%252520%2525E5%2525BD%252595%2525E5%252588%2525B6%252520java.net.Socket%252526gt%25253Bxception%25253A%252520Socket%252520closed%252520at%252520java.net.PlainSocketI%26rsv_pq%3De3fc6908000404bc%26rsv_t%3D761avbtp3IY%252BLh32QisZjrAuGy0YqbUXCHexQ7DnKJDt3dgRUBrOpF%252FZobW2pzwiDT5F%26rqlang%3Dcn%26rsv_enter%3D1%26rsv_dl%3Dtb%26rsv_sug3%3D30%26rsv_sug1%3D14%26rsv_sug7%3D100%26rsv_sug2%3D0%26rsv_btype%3Dt%26inputT%3D12411%26rsv_sug4%3D13644&rsv_did=a609d9bd0fbc3c809c6288b8bb092ea2
-2020-04-21 20:13:47,855 INFO o.a.j.p.h.p.Proxy: [62522]  KeyStore for SSL loaded OK and put host 'pan.baidu.com' in map with key (pan.baidu.com)
-2020-04-21 20:13:50,172 INFO o.a.j.p.h.p.Proxy: [62527]  KeyStore for SSL loaded OK and put host 'sp2.baidu.com' in map with key (sp2.baidu.com)
-2020-04-21 20:13:50,182 INFO o.a.j.p.h.p.ProxyControl: [62531]  Creating entry dss1.bdstatic.com in /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
-2020-04-21 20:13:50,193 INFO o.a.j.p.h.p.Proxy: [62530]  KeyStore for SSL loaded OK and put host 'ss1.bdstatic.com' in map with key (ss1.bdstatic.com)
-2020-04-21 20:13:50,404 INFO o.a.j.p.h.p.Proxy: [62534]  KeyStore for SSL loaded OK and put host 'www.cnblogs.com' in map with key (www.cnblogs.com)
-2020-04-21 20:13:50,418 INFO o.a.j.p.h.p.Proxy: [62536]  KeyStore for SSL loaded OK and put host 'common.cnblogs.com' in map with key (common.cnblogs.com)
-2020-04-21 20:13:50,431 INFO o.a.j.p.h.p.Proxy: [62535]  KeyStore for SSL loaded OK and put host 'adservice.google.com' in map with key (adservice.google.com)
-2020-04-21 20:13:51,486 INFO o.a.j.p.h.p.Proxy: [62560]  KeyStore for SSL loaded OK and put host 'a1.cnblogs.com' in map with key (a1.cnblogs.com)
-2020-04-21 20:13:51,497 INFO o.a.j.p.h.p.Proxy: [62561]  KeyStore for SSL loaded OK and put host 'recomm.cnblogs.com' in map with key (recomm.cnblogs.com)
-2020-04-21 20:13:51,551 INFO o.a.j.p.h.p.Proxy: [62572]  KeyStore for SSL loaded OK and put host 'www.googletagservices.com' in map with key (www.googletagservices.com)
-2020-04-21 20:13:51,588 INFO o.a.j.p.h.p.Proxy: [62581]  KeyStore for SSL loaded OK and put host 'count.cnblogs.com' in map with key (count.cnblogs.com)
-2020-04-21 20:13:51,651 INFO o.a.j.p.h.p.Proxy: [62592]  KeyStore for SSL loaded OK and put host 'pic.cnblogs.com' in map with key (pic.cnblogs.com)
-2020-04-21 20:13:51,665 INFO o.a.j.p.h.p.Proxy: [62596]  KeyStore for SSL loaded OK and put host 'static.cnblogs.com' in map with key (static.cnblogs.com)
-2020-04-21 20:13:51,742 INFO o.a.j.p.h.p.Proxy: [62606]  KeyStore for SSL loaded OK and put host 'img2018.cnblogs.com' in map with key (img2018.cnblogs.com)
-2020-04-21 20:13:51,889 INFO o.a.j.p.h.p.Proxy: [62621]  KeyStore for SSL loaded OK and put host 'www.google-analytics.com' in map with key (www.google-analytics.com)
-2020-04-21 20:13:51,910 INFO o.a.j.p.h.p.Proxy: [62622]  KeyStore for SSL loaded OK and put host 'securepubads.g.doubleclick.net' in map with key (securepubads.g.doubleclick.net)
-2020-04-21 20:13:52,247 INFO o.a.j.p.h.p.Proxy: [62531]  KeyStore for SSL loaded OK and put host 'dss1.bdstatic.com' in map with key (dss1.bdstatic.com)
-2020-04-21 20:13:52,856 INFO o.a.j.p.h.p.Proxy: [62628]  KeyStore for SSL loaded OK and put host 'pagead2.googlesyndication.com' in map with key (pagead2.googlesyndication.com)
-2020-04-21 20:13:52,952 INFO o.a.j.p.h.p.Proxy: [62632]  KeyStore for SSL loaded OK and put host 'csi.gstatic.com' in map with key (csi.gstatic.com)
-2020-04-21 20:13:53,221 INFO o.a.j.p.h.p.Proxy: [62634]  KeyStore for SSL loaded OK and put host 'tpc.googlesyndication.com' in map with key (tpc.googlesyndication.com)
-2020-04-21 20:14:44,653 INFO o.a.j.p.h.p.ProxyControl: [62644]  Creating entry api.apple-cloudkit.com in /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
-2020-04-21 20:14:45,933 INFO o.a.j.p.h.p.Proxy: [62644]  KeyStore for SSL loaded OK and put host 'api.apple-cloudkit.com' in map with key (api.apple-cloudkit.com)
-2020-04-21 20:14:45,960 WARN o.a.j.p.h.p.Proxy: [62644]  Problem with SSL certificate for url  for 'api.apple-cloudkit.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake
-2020-04-21 20:16:46,381 INFO o.a.j.p.h.p.Proxy: [62661]  KeyStore for SSL loaded OK and put host 'gateway.icloud.com' in map with key (gateway.icloud.com)
-2020-04-21 20:16:46,458 WARN o.a.j.p.h.p.Proxy: [62661]  Problem with SSL certificate for url  for 'gateway.icloud.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake
-2020-04-21 20:16:46,495 WARN o.a.j.p.h.p.Proxy: [62662]  Problem with SSL certificate for url  for 'gateway.icloud.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake
-2020-04-21 20:16:58,744 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
-2020-04-21 20:17:01,678 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
-2020-04-21 20:17:01,678 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
-2020-04-21 20:17:01,679 INFO o.a.j.p.h.p.ProxyControl: Creating entry *.banmacang.com in /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
-2020-04-21 20:17:02,113 ERROR o.a.j.p.h.p.ProxyControl: Could not initialise key store
-java.io.IOException:   >> keytool 错误: java.lang.RuntimeException: java.io.IOException: DNSName components must begin with a letter <<
-Command failed, code: 1
-'keytool -genkeypair -alias *.banmacang.com -dname "cn=*.banmacang.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 7 -ext san=dns:*.banmacang.com'
-	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.1.1 r1855137]
-	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:287) ~[jorphan.jar:5.1.1 r1855137]
-	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:278) ~[jorphan.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1585) ~[ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1480) ~[ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:540) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:592) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:432) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [?:1.8.0_191]
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [?:1.8.0_191]
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [?:1.8.0_191]
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [?:1.8.0_191]
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [?:1.8.0_191]
-	at java.awt.Component.processMouseEvent(Component.java:6539) [?:1.8.0_191]
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [?:1.8.0_191]
-	at java.awt.Component.processEvent(Component.java:6304) [?:1.8.0_191]
-	at java.awt.Container.processEvent(Container.java:2239) [?:1.8.0_191]
-	at java.awt.Component.dispatchEventImpl(Component.java:4889) [?:1.8.0_191]
-	at java.awt.Container.dispatchEventImpl(Container.java:2297) [?:1.8.0_191]
-	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_191]
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904) [?:1.8.0_191]
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535) [?:1.8.0_191]
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476) [?:1.8.0_191]
-	at java.awt.Container.dispatchEventImpl(Container.java:2283) [?:1.8.0_191]
-	at java.awt.Window.dispatchEventImpl(Window.java:2746) [?:1.8.0_191]
-	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_191]
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760) [?:1.8.0_191]
-	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_191]
-	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_191]
-	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_191]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_191]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_191]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84) [?:1.8.0_191]
-	at java.awt.EventQueue$4.run(EventQueue.java:733) [?:1.8.0_191]
-	at java.awt.EventQueue$4.run(EventQueue.java:731) [?:1.8.0_191]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_191]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_191]
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_191]
-2020-04-21 20:17:10,831 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
-2020-04-21 20:17:10,831 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
-2020-04-21 20:17:10,831 INFO o.a.j.p.h.p.ProxyControl: Creating entry *.banmacang.com in /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
-2020-04-21 20:17:11,585 ERROR o.a.j.p.h.p.ProxyControl: Could not initialise key store
-java.io.IOException:   >> keytool 错误: java.lang.RuntimeException: java.io.IOException: DNSName components must begin with a letter <<
-Command failed, code: 1
-'keytool -genkeypair -alias *.banmacang.com -dname "cn=*.banmacang.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 7 -ext san=dns:*.banmacang.com'
-	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.1.1 r1855137]
-	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:287) ~[jorphan.jar:5.1.1 r1855137]
-	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:278) ~[jorphan.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1585) ~[ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1480) ~[ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:540) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:592) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:432) [ApacheJMeter_http.jar:5.1.1 r1855137]
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [?:1.8.0_191]
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [?:1.8.0_191]
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [?:1.8.0_191]
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [?:1.8.0_191]
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [?:1.8.0_191]
-	at java.awt.Component.processMouseEvent(Component.java:6539) [?:1.8.0_191]
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [?:1.8.0_191]
-	at java.awt.Component.processEvent(Component.java:6304) [?:1.8.0_191]
-	at java.awt.Container.processEvent(Container.java:2239) [?:1.8.0_191]
-	at java.awt.Component.dispatchEventImpl(Component.java:4889) [?:1.8.0_191]
-	at java.awt.Container.dispatchEventImpl(Container.java:2297) [?:1.8.0_191]
-	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_191]
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904) [?:1.8.0_191]
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535) [?:1.8.0_191]
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476) [?:1.8.0_191]
-	at java.awt.Container.dispatchEventImpl(Container.java:2283) [?:1.8.0_191]
-	at java.awt.Window.dispatchEventImpl(Window.java:2746) [?:1.8.0_191]
-	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_191]
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760) [?:1.8.0_191]
-	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_191]
-	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_191]
-	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_191]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_191]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_191]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84) [?:1.8.0_191]
-	at java.awt.EventQueue$4.run(EventQueue.java:733) [?:1.8.0_191]
-	at java.awt.EventQueue$4.run(EventQueue.java:731) [?:1.8.0_191]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_191]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_191]
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_191]
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_191]
-2020-04-21 20:17:45,661 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
-2020-04-21 20:17:45,662 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
-2020-04-21 20:17:45,662 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8080
-2020-04-21 20:17:45,662 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
-2020-04-21 20:17:53,082 WARN o.a.j.p.h.p.Proxy: [62531]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for dss1.bdstatic.com:443
-2020-04-21 20:17:53,082 WARN o.a.j.p.h.p.Proxy: [62536]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for common.cnblogs.com:443
-2020-04-21 20:17:53,082 WARN o.a.j.p.h.p.Proxy: [62530]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for ss1.bdstatic.com:443
-2020-04-21 20:17:53,082 WARN o.a.j.p.h.p.Proxy: [62528]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for www.baidu.com:443
-2020-04-21 20:17:53,082 WARN o.a.j.p.h.p.Proxy: [62630]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for img2018.cnblogs.com:443
-2020-04-21 20:18:33,799 INFO o.a.j.p.h.p.Proxy: [62698]  KeyStore for SSL loaded OK and put host 'clients4.google.com' in map with key (clients4.google.com)
-2020-04-21 20:19:06,928 INFO o.a.j.p.h.p.Proxy: [62701]  KeyStore for SSL loaded OK and put host 'sqimg.qq.com' in map with key (sqimg.qq.com)
-2020-04-21 20:21:54,701 INFO o.a.j.p.h.p.Proxy: [62798]  KeyStore for SSL loaded OK and put host 'safebrowsing.urlsec.qq.com' in map with key (safebrowsing.urlsec.qq.com)
-2020-04-21 20:21:58,100 INFO o.a.j.p.h.p.Proxy: [62800]  KeyStore for SSL loaded OK and put host 'safebrowsing.googleapis.com' in map with key (safebrowsing.googleapis.com)
-2020-04-21 20:23:12,861 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2020-04-28 09:38:17,490 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2020-04-28 09:38:17,527 INFO o.a.j.JMeter: Loading user properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/user.properties
+2020-04-28 09:38:17,527 INFO o.a.j.JMeter: Loading system properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/system.properties
+2020-04-28 09:38:17,533 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-04-28 09:38:17,533 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: java.version=1.8.0_191
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: os.arch=x86_64
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: os.version=10.15.3
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: java.awt.headless=null
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-04-28 09:38:17,534 INFO o.a.j.JMeter: Available Processors =8
+2020-04-28 09:38:17,541 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-04-28 09:38:17,541 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2020-04-28 09:38:17,541 INFO o.a.j.JMeter: JMeterHome=/Users/ren/Documents/tools/apache-jmeter-5.1.1
+2020-04-28 09:38:17,541 INFO o.a.j.JMeter: user.dir  =/Users/ren/Desktop/web/docs
+2020-04-28 09:38:17,541 INFO o.a.j.JMeter: PWD       =/Users/ren/Desktop/web/docs
+2020-04-28 09:38:17,543 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: rens-MacBook-Pro.local FullName: localhost
+2020-04-28 09:38:19,527 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-04-28 09:38:19,546 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-04-28 09:38:19,546 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-04-28 09:38:19,631 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-04-28 09:38:21,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-28 09:38:21,178 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-28 09:38:21,178 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-28 09:38:21,178 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-28 09:38:21,179 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-28 09:38:21,179 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-04-28 09:38:21,496 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-04-28 09:38:21,497 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
+2020-04-28 09:38:21,614 INFO o.a.j.s.FileServer: Default base='/Users/ren/Desktop/web/docs'
+2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-04-28 09:38:31,862 INFO o.a.j.g.a.Load: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
+2020-04-28 09:38:31,862 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'
+2020-04-28 09:38:32,014 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-04-28 09:38:32,032 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-04-28 09:38:32,033 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-04-28 09:38:32,036 INFO o.a.j.s.SaveService: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
+2020-04-28 09:38:32,368 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'

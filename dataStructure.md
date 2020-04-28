@@ -156,7 +156,7 @@
 
    https://blog.csdn.net/g6U8W7p06dCO99fQ3/article/details/82056948
 
-5. 额问问
+5. 多路复用：多个网络io复用一个或少量的线程来处理这里连接
 
 6. 方法是收费
 

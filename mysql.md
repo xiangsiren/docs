@@ -57,14 +57,29 @@
 
    业务分库：按业务将不同表放进不同库。每个库可以放在不同数据库服务器上
 
-   
+5. ### MySQL事务隔离级别
 
-5. 323
+   　　SQL标准定义了4种隔离级别，高级别的隔离级别事务安全，并发性能较低，占用资源较多，低级别反之。
+
+   - READ UNCOMMITTED(读未提交内容)
+   - READ COMMITTED(读已提交内容)
+   - REPEATABLE READ(可重复读)
+   - SERIALIZABLE(串行化)
 
 6. https://www.runoob.com/mysql/mysql-join.html
 
-7. 二位无
+7. **脏读：**在隔离级别读未提交中可能会出现，一个事务读取另外一个事务还没有提交的数据叫脏读，事物A读取了事物B更新的事物，事物B没有commit并且回滚，此时就事物A产生脏读，应用也没保证数据的正确性。
 
-8. 额外翁无
+8. MySQL默认的事务隔离级别是：可重复读
 
-9. 二位
+9. https://blog.csdn.net/a281246240/article/details/86507118
+
+10. 索引是一种高效获取数据的存储结构，MySQL索引数据结构采用b+tree
+
+11. https://www.cnblogs.com/wlwl/p/9465583.html
+
+12. 递四方速递发
+
+13. sdfdfsa 
+
+14. 递四方速递发算法
