@@ -1,44 +1,44 @@
-2020-04-28 09:38:17,490 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
-2020-04-28 09:38:17,527 INFO o.a.j.JMeter: Loading user properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/user.properties
-2020-04-28 09:38:17,527 INFO o.a.j.JMeter: Loading system properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/system.properties
-2020-04-28 09:38:17,533 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
-2020-04-28 09:38:17,533 INFO o.a.j.JMeter: Version 5.1.1 r1855137
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: java.version=1.8.0_191
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: os.name=Mac OS X
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: os.arch=x86_64
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: os.version=10.15.3
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: file.encoding=UTF-8
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: java.awt.headless=null
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: Max memory     =1073741824
-2020-04-28 09:38:17,534 INFO o.a.j.JMeter: Available Processors =8
-2020-04-28 09:38:17,541 INFO o.a.j.JMeter: Default Locale=English (EN)
-2020-04-28 09:38:17,541 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
-2020-04-28 09:38:17,541 INFO o.a.j.JMeter: JMeterHome=/Users/ren/Documents/tools/apache-jmeter-5.1.1
-2020-04-28 09:38:17,541 INFO o.a.j.JMeter: user.dir  =/Users/ren/Desktop/web/docs
-2020-04-28 09:38:17,541 INFO o.a.j.JMeter: PWD       =/Users/ren/Desktop/web/docs
-2020-04-28 09:38:17,543 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: rens-MacBook-Pro.local FullName: localhost
-2020-04-28 09:38:19,527 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
-2020-04-28 09:38:19,546 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
-2020-04-28 09:38:19,546 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
-2020-04-28 09:38:19,631 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2020-04-28 09:38:21,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-28 09:38:21,178 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-28 09:38:21,178 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-28 09:38:21,178 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-04-28 09:38:21,179 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2020-04-28 09:38:21,179 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2020-04-28 09:38:21,496 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2020-04-28 09:38:21,497 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
-2020-04-28 09:38:21,614 INFO o.a.j.s.FileServer: Default base='/Users/ren/Desktop/web/docs'
-2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2020-04-28 09:38:21,883 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2020-04-28 09:38:31,862 INFO o.a.j.g.a.Load: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
-2020-04-28 09:38:31,862 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'
-2020-04-28 09:38:32,014 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2020-04-28 09:38:32,032 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2020-04-28 09:38:32,033 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2020-04-28 09:38:32,036 INFO o.a.j.s.SaveService: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
-2020-04-28 09:38:32,368 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'
+2020-05-11 16:31:01,137 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2020-05-11 16:31:01,170 INFO o.a.j.JMeter: Loading user properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/user.properties
+2020-05-11 16:31:01,170 INFO o.a.j.JMeter: Loading system properties from: /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/system.properties
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: java.version=1.8.0_191
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: os.arch=x86_64
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: os.version=10.15.4
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: java.awt.headless=null
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-05-11 16:31:01,175 INFO o.a.j.JMeter: Available Processors =8
+2020-05-11 16:31:01,179 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-05-11 16:31:01,179 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2020-05-11 16:31:01,179 INFO o.a.j.JMeter: JMeterHome=/Users/ren/Documents/tools/apache-jmeter-5.1.1
+2020-05-11 16:31:01,179 INFO o.a.j.JMeter: user.dir  =/Users/ren/Desktop/web/docs
+2020-05-11 16:31:01,179 INFO o.a.j.JMeter: PWD       =/Users/ren/Desktop/web/docs
+2020-05-11 16:31:01,183 INFO o.a.j.JMeter: IP: 192.168.111.125 Name: 192.168.111.125 FullName: 192.168.111.125
+2020-05-11 16:31:02,673 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-05-11 16:31:02,690 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-05-11 16:31:02,690 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-05-11 16:31:02,751 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-05-11 16:31:04,179 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-11 16:31:04,180 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-11 16:31:04,180 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-11 16:31:04,181 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-11 16:31:04,181 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-05-11 16:31:04,181 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-05-11 16:31:04,494 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-05-11 16:31:04,494 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/ren/Documents/tools/apache-jmeter-5.1.1/bin/proxyserver.jks
+2020-05-11 16:31:04,627 INFO o.a.j.s.FileServer: Default base='/Users/ren/Desktop/web/docs'
+2020-05-11 16:31:04,880 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-05-11 16:31:04,880 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-05-11 16:31:04,880 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-05-11 16:31:04,880 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-05-11 16:31:21,851 INFO o.a.j.g.a.Load: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
+2020-05-11 16:31:21,852 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'
+2020-05-11 16:31:21,962 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-05-11 16:31:21,973 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-05-11 16:31:21,975 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-05-11 16:31:21,978 INFO o.a.j.s.SaveService: Loading file: /Users/ren/Desktop/web/python/interface/interfacePython/jmx/1月15号测试计划.jmx
+2020-05-11 16:31:22,296 INFO o.a.j.s.FileServer: Set new base='/Users/ren/Desktop/web/python/interface/interfacePython/jmx'
