@@ -78,7 +78,7 @@
 
 11. https://www.cnblogs.com/wlwl/p/9465583.html
 
-12. 递四方速递发
+12. 如何实现分布式锁?![image-20200516082047407](https://home08.oss-cn-hangzhou.aliyuncs.com/tmp/image-20200516082047407.png)
 
 13. sdfdfsa 
 
