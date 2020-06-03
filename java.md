@@ -246,11 +246,11 @@
 
 39. springcloud 五大组件：
 
-    1. 服务发现eureka:
+    1. 服务发现eureka: nacos代替
     2. 客户端负载均衡Ribbon:
-    3. 熔断器hystrix: 保护系统，控制故障
-    4. 服务网关zuul: api 网关路由
-    5. 分布式配置springcloud config：配置管理
+    3. 熔断器hystrix: 保护系统，控制故障 Sentinel代替
+    4. 服务网关zuul: api 网关路由 spring cloud getaway代替
+    5. 分布式配置springcloud config：配置管理  nacos-config 代替
 
 40. hash冲突的解决方法：
 
