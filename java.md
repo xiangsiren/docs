@@ -320,9 +320,23 @@
 
        https://www.cnblogs.com/tf-Y/p/5266710.html
 
-49. 阿士大夫
+49. Java 线程池参数：https://blog.csdn.net/ye17186/article/details/89467919
 
-50. 手动阀
+       corePoolSize：线程池核心线程大小
+
+       maximumPoolSize：线程池最大线程数量
+
+       keepAliveTime：空闲线程存货时间
+
+       unit：空闲线程存活时间单位
+
+       workQueue：工作队列
+
+       threadFactory：线程工厂
+
+       handler：拒绝策略
+
+50. 分布式事务：http://www.imooc.com/article/289274
 
 51. 似懂非懂方式
 

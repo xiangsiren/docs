@@ -10,9 +10,13 @@
 
    Nginx通过proxy_pass 设置代理服务
 
-    
+2. Nginx高可用方案：
 
-2. sdffda
+   一般采用Nginx + keepalived的方案
+
+   keepalived 主要用来防止服务器单点故障的发生问题，可以通过和Nginx的配合实现web服务端的高可用
+
+   https://www.jianshu.com/p/78b6a61531a1
 
 3. sfdadf
 
