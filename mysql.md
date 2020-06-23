@@ -82,6 +82,8 @@
 
 13. 如何实现分布式锁?![image-20200516082047407](https://home08.oss-cn-hangzhou.aliyuncs.com/tmp/image-20200516082047407.png)
 
-14. sdfdfsa 
+14. 千万大表优化
+
+    https://www.jianshu.com/p/1bf3196ad1ac
 
 15. 递四方速递发算法

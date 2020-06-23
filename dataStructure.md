@@ -221,5 +221,17 @@
     3. 空间和时间的交换（哈希表）
     4. 预处理信息（排序）
 
-23. 颠三倒四
+23. #### HashMap和ConcurrentHashMap的知识总结
+
+    https://www.jianshu.com/p/a7767e6ff2a2
+
+24. fsda 
+
+25. fdsa 
+
+26. dsfa 
+
+27. dsfa
+
+28. fdsa
 
