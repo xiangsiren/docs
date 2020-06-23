@@ -316,7 +316,9 @@
 
        lock : 类，需要手动释放锁，可能发生死锁，可中断，锁状态可判断,适合大量同步
 
-48. 撒的发生发的
+48. voletile 与 sycronized区别：
+
+       https://www.cnblogs.com/tf-Y/p/5266710.html
 
 49. 阿士大夫
 
