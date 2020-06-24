@@ -338,11 +338,30 @@
 
 50. 分布式事务：http://www.imooc.com/article/289274
 
-51. 似懂非懂方式
+51. springMVC框架的执行步骤：
 
-52. 撒旦法
+       1. 用户发起请求到前端控制器（DispatchServlet）
+       2. handler处理完成返回ModelAndView
+
+52. RPC
+
+       https://www.jianshu.com/p/b0343bfd216e
 
 53. 阿士大夫   
+
+54. 第三方发生的
+
+55. dsfsfd 
+
+56. 手动阀
+
+57. 地方撒 
+
+58. 手动阀
+
+59. 发多少
+
+60. 士大夫
 
 
 
