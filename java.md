@@ -256,8 +256,9 @@
 
 41. hash冲突的解决方法：
 
-          1. 链地址法
-          2. 再hash法
+             1. 链地址法
+             2. 再hash法
+             
 
 42. java里面线程池的顶级接口是Executor;真正的线程池接口是ExecutorService;**ThreadPoolExecutor** :ExecutorService的默认实现。
 
