@@ -32,6 +32,34 @@
 
    PHP多线程也称被人提及，但是进程内多线程资源共享和分配的问题难以解决，相关的扩展也不太稳定，
 
-7. dfssdfad
+7. php-fpm 与swoole区别：
+
+   **对比不同**
+
+   **PHP-FPM**
+
+   ● Master 主进程 / Worker 多进程模式。
+
+   ● 启动 Master，通过 FastCGI 协议监听来自 Nginx 传输的请求。
+
+   ● 每个 Worker 进程只对应一个连接，用于执行完整的 PHP 代码。
+
+   ● PHP 代码执行完毕，占用的内存会全部销毁，下一次请求需要重新再进行初始化等各种繁琐的操作。
+
+   ● 只用于 HTTP Server。
+
+   **Swoole**
+
+   ● Master 主进程（由多个 Reactor 线程组成）/ Worker 多进程（或多线程）模式
+
+   ● 启动 Master，初始化 PHP 代码，由 Reactor 监听 Socket 句柄的事件变化。
+
+   ● Reactor 主线程负责子多线程的均衡问题，Manager 进程管理 Worker 多进程，包括 TaskWorker 的进程。
+
+   ● 每个 Worker 接受来自 Reactor 的请求，只需要执行回调函数部分的 PHP 代码。
+
+   ● 只在 Master 启动时执行一遍 PHP 初始化代码，Master 进入监听状态，并不会结束进程。
+
+   ● 不仅可以用于 HTTP Server，还可以建立 TCP 连接、WebSocket 连接。
 
 8. eeeqw
