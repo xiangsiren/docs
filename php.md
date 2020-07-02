@@ -32,7 +32,7 @@
 
    PHP多线程也称被人提及，但是进程内多线程资源共享和分配的问题难以解决，相关的扩展也不太稳定，
 
-7. php-fpm 与swoole区别：
+7. php-fpm 与swoole区别：https://www.yisu.com/zixun/132598.html
 
    **对比不同**
 
