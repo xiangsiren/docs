@@ -258,8 +258,7 @@
 
              1. 链地址法
              2. 再hash法
-             
-
+    
 42. java里面线程池的顶级接口是Executor;真正的线程池接口是ExecutorService;**ThreadPoolExecutor** :ExecutorService的默认实现。
 
 43. 几种常见的运行时异常：
@@ -314,17 +313,17 @@
        https://www.jianshu.com/p/7ab4ae9443b9
 
           corePoolSize：线程池核心线程大小
-    
+        
           maximumPoolSize：线程池最大线程数量
-    
+        
           keepAliveTime：空闲线程存货时间
-    
+        
           unit：空闲线程存活时间单位
-    
+        
           workQueue：工作队列
-    
+        
           threadFactory：线程工厂
-    
+        
           handler：拒绝策略
 
 49. 分布式事务：http://www.imooc.com/article/289274
@@ -344,10 +343,8 @@
 
 53. for 与foreach区别
 
-<<<<<<< HEAD
-       foreach适用于只是进行集合或数组遍历，for则在较复杂的循环中效率更高。
-
-       foreach不能对数组或集合进行修改（添加删除操作），如果想要修改就要用for循环。
+    foreach适用于只是进行集合或数组遍历，for则在较复杂的循环中效率更高。
+    foreach不能对数组或集合进行修改（添加删除操作），如果想要修改就要用for循环。
 
 54. dsfsfd 
 
@@ -367,9 +364,19 @@
        3. 使用twitter的snowflake算法实现
        4. 使用数据库实现
 
-53. 第三方发生的
+53. string ：创建字符串pool 与heap
 
-54. dsfsfd 
+    https://blog.csdn.net/yrwan95/article/details/81212714
+
+54. Stringbuffer 与sringbuilder 区别：https://segmentfault.com/a/1190000017909550
+
+    1. StringBuffer：线程安全，StringBuilder：线程不安全。
+
+       因为 StringBuffer 的所有公开方法都是 synchronized 修饰的，
+
+       而 StringBuilder 并没有 synchronized 修饰。
+
+    2. 既然 StringBuffer 是线程安全的，它的所有公开方法都是同步的，StringBuilder 是没有对方法加锁同步的，所以毫无疑问，StringBuilder 的性能要远大于 StringBuffer。
 
 55. 手动阀
 
@@ -378,9 +385,6 @@
 57. 手动阀
 
 58. 发多少
-
->>>>>>> 623a709ee7de16836c8125ed2988d63b3c64d843
-59. 士大夫
 
 
 
