@@ -60,6 +60,8 @@
 
 12. redis持久化机制：RDB(redis database) 和 AOF(Append only file)
 
+    https://www.jianshu.com/p/425b8530ae76
+
     https://blog.csdn.net/weixin_30566149/article/details/99154307
 
     aof: 保护数据不丢失，写入性能很高
