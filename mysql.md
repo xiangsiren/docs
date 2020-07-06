@@ -72,7 +72,7 @@
 
 8. **脏读：**在隔离级别读未提交中可能会出现，一个事务读取另外一个事务还没有提交的数据叫脏读，事物A读取了事物B更新的事物，事物B没有commit并且回滚，此时就事物A产生脏读，应用也没保证数据的正确性。
 
-9. MySQL默认的事务隔离级别是：可重复读
+9. MySQL默认的事务隔离级别是：可重复读https://www.cnblogs.com/shoshana-kong/p/10516404.html
 
 10. https://blog.csdn.net/a281246240/article/details/86507118
 

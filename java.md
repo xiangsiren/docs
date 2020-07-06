@@ -355,12 +355,13 @@
 57. 手动阀
 
 
-52. 常见生成全局唯一ID
+52. 常见生成全局唯一ID：https://www.jianshu.com/p/5a71cd4e2de5
 
-       1. 使用UUID实现
-       2. 使用Redis实现
-       3. 使用twitter的snowflake算法实现
-       4. 使用数据库实现
+       1. 使用UUID实现：利用java.util.UUID类生成
+       2. 使用Redis实现：用Redis的原子操作 INCR和INCRBY来实现
+       3. 使用twitter的snowflake算法实现：
+       4. 使用数据库实现：数据库自增主键，步长不一样
+          5. 时间戳+ 业务字段+ 随机组合：比如时间戳+用户ID+随机数就是一个很好的例子
 
 53. string ：创建字符串pool 与heap
 
