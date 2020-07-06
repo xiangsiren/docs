@@ -377,9 +377,13 @@
 
     2. 既然 StringBuffer 是线程安全的，它的所有公开方法都是同步的，StringBuilder 是没有对方法加锁同步的，所以毫无疑问，StringBuilder 的性能要远大于 StringBuffer。
 
-55. 手动阀
+55. Spring框架对单例的支持是采用单例注册表的方式进行实现的
 
-56. 地方撒 
+56. callable 与runable 区别：https://www.cnblogs.com/kaituorensheng/p/9502968.html
+
+    Runnable没有返回值；Callable可以返回执行结果，是个泛型，和Future、FutureTask配合可以用来获取异步执行的结果
+
+    Callable接口的call()方法允许抛出异常；Runnable的run()方法异常只能在内部消化，不能往上继续抛
 
 57. 手动阀
 
