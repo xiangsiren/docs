@@ -385,11 +385,30 @@
 
     Callable接口的call()方法允许抛出异常；Runnable的run()方法异常只能在内部消化，不能往上继续抛
 
-57. 手动阀
+57. sychronize
 
-58. 发多少
+    1. java代码执行sychronize
+    2. 字节码执行：moniterenter moniterexit
+    3. jvm执行过程中自动锁升级
+    4. cpu汇编层级lock cmpxchg
 
-59. 富士达
+58. fsd
+
+59. fds
+
+60. fs
+
+61. s
+
+62. s
+
+63. s
+
+64. sa
+
+65. 多少
+
+66. 富士达
 
 
 
