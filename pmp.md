@@ -1,6 +1,6 @@
 1. 去问问
 
-2. 驱蚊器无
+2. 热热
 
 3. https://baike.baidu.com/item/软件项目管理/9854387?fr=aladdin
 
@@ -48,9 +48,7 @@
 
    范围，成本，时间，质量
 
-8. sdfa 
-
-9. safd
+8. sdfa `
 
 10. dfsaf 
 
