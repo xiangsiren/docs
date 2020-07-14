@@ -392,7 +392,15 @@
     3. jvm执行过程中自动锁升级
     4. cpu汇编层级lock cmpxchg
 
-58. fsd
+58. 创建多少个线程合适：
+
+    https://www.jianshu.com/p/f30ee2346f9f
+
+    CPU密集型，i/o密集型
+
+    对于CPU密集型来说，多线程主要目的是提成CPU利用率，保持和CPU核数一致即可
+
+    对于IO密集型来说，一般是最佳线程数 =CPU 核数 * [ 1 +（I/O 耗时 / CPU 耗时）]
 
 59. fds
 

@@ -85,7 +85,9 @@
 
 15. fdsa
 
-16. 
+16. redis 借助bitmap实现布隆过滤器：
+
+    https://www.jianshu.com/p/c2defe549b40
 
 17. fdsfsd
 
