@@ -402,7 +402,7 @@
 
     对于IO密集型来说，一般是最佳线程数 =CPU 核数 * [ 1 +（I/O 耗时 / CPU 耗时）]
 
-59. fds
+59. java sychronize 原理：https://blog.csdn.net/javazejian/article/details/72828483
 
 60. fs
 
