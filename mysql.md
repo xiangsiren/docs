@@ -173,6 +173,6 @@
 
     https://blog.51cto.com/12874079/2149371?source=dra
 
-22. 撒
+22.  MySQL InnoDB 的多版本并发控制（MVCC）: https://www.imooc.com/article/details/id/31277
 
 23. sdf
