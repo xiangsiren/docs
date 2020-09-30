@@ -175,4 +175,14 @@
 
 22.  MySQL InnoDB 的多版本并发控制（MVCC）: https://www.imooc.com/article/details/id/31277
 
-23. sdf
+23. INNER JOIN 关键字在表中存在至少一个匹配时返回行。LEFT JOIN 关键字从左表（table1）返回所有的行，即使右表（table2）中没有匹配。如果右表中没有匹配，则结果为 NULL。
+
+    RIGHT JOIN 关键字从右表（table2）返回所有的行，即使左表（table1）中没有匹配。如果左表中没有匹配，则结果为 NULL。
+
+24. 双方都
+
+25. 水电费
+
+26. 撒
+
+27. 撒
