@@ -29,5 +29,5 @@
 
 6. QPS:每秒查询率：特定时间内服务器查询指标的衡量
 
-7. dsadf 
+7. http://www.imooc.com/t/1863086#Article
 
