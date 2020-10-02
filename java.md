@@ -441,7 +441,9 @@
 
     ReetrantLock 设计目的是用来替代synchronized 关键字
 
-67. 对比：
+67. sychronize : 不可中断指的是：线程被占用，只能选择等待或者阻塞；可中断：指的是可中断正在执行的线程或者推出等待
+
+68. 对比：
 
     | 特征     | synchronize          | reetrantlock               |
     | :------- | -------------------- | -------------------------- |
@@ -452,13 +454,13 @@
     | 高级功能 | 无                   | 公平锁，非公平锁，中断唤醒 |
     | 性能     | 低-》高（1.5+）      | 高                         |
 
-68. cas算法：
+69. cas算法：
 
     锁是用来做并发最简单的方式，代价也是最高的，独占锁是一种悲观锁，synchronize 是独占锁，它假设最坏的情况，确保不会有其他线程干扰的情况下执行，会导致其他需要锁的线程挂起，等待有锁的线程释放锁；
 
     乐观锁：不加锁，假设没有冲突执行操作，如果有冲突失败就重试，直到成功，其中cas(比较与交换，compare and swap)无锁算法
 
-69. java虚拟机对synchronize的优化：锁的状态共有四种
+70. java虚拟机对synchronize的优化：锁的状态共有四种
 
     [https://blog.csdn.net/javazejian/article/details/72828483#synchronized%E5%BA%95%E5%B1%82%E8%AF%AD%E4%B9%89%E5%8E%9F%E7%90%86](https://blog.csdn.net/javazejian/article/details/72828483#synchronized底层语义原理)
 
@@ -472,13 +474,13 @@
 
     锁消除：
 
-70. 注解：https://www.jianshu.com/p/9471d6bcf4cf
+71. 注解：https://www.jianshu.com/p/9471d6bcf4cf
 
-71. 反射：https://www.jianshu.com/p/9be58ee20dee
+72. 反射：https://www.jianshu.com/p/9be58ee20dee
 
-72. 反射机制：在运行状态，对任意一个类，都能知道这个类的属性和方法，对任意一个对象，都能调用它的方法和属性，动态调用属性及动态调用方法的功能称为Java语言的反射机制
+73. 反射机制：在运行状态，对任意一个类，都能知道这个类的属性和方法，对任意一个对象，都能调用它的方法和属性，动态调用属性及动态调用方法的功能称为Java语言的反射机制
 
-73. 代理：jdk代理 与Cglib代理 区别：
+74. 代理：jdk代理 与Cglib代理 区别：
 
     jdk代理有个限制，它只能为接口创建代理实例，对于没有通过接口定义业务方法的类，，可以使用cglib代理
 
@@ -486,9 +488,9 @@
     2. cglib动态代理生成的字节码更加复杂，生成的代理类是委托类的子类，且不能处理final 关键字修饰的方法
     3. jdk采用反射机制调用委托类的方法，cglib 采用类似索引的方式直接调用委托类方法
 
-74. ConcurrentHashMap底层实现原理 : https://www.jianshu.com/p/865c813f2726
+75. ConcurrentHashMap底层实现原理 : https://www.jianshu.com/p/865c813f2726
 
-75. 水电费
+76. 水电费
 
 
 
