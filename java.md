@@ -307,9 +307,9 @@
 47. voletile 与 sycronized区别：
 
            https://blog.csdn.net/mifffy_java/article/details/99944946
-    
+        
           作用：
-    
+        
           synchronized 表示只有一个线程可以获取作用对象的锁，执行代码，阻塞其他线程。
           volatile 表示变量在 CPU 的寄存器中是不确定的，必须从主存中读取。保证多线程环境下变量的可见性；禁止指令重排序。
 
@@ -322,7 +322,7 @@
 
 48. Java 线程池参数：https://blog.csdn.net/ye17186/article/details/89467919
 
-       https://www.jianshu.com/p/7ab4ae9443b9
+       https://www.jianshu.com/p/7ab4ae9443b9  https://www.jianshu.com/p/7726c70cdc40
 
           corePoolSize：线程池核心线程大小
         
