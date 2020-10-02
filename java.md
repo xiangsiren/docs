@@ -437,7 +437,7 @@
     1. 对象锁：包括方法锁（默认锁对象为this当前实例对象）和同步代码块锁
     2. 类锁：指sychronize 修饰的静态方法或指定锁为class 对象 https://www.imooc.com/video/18489
 
-66. 重入锁：线程获取到锁之后，再次获取该锁不会被阻塞
+66. 重入锁：线程获取到锁之后，再次获取该锁不会被阻塞 ，sychronize 可重入是线程而非调用
 
     ReetrantLock 设计目的是用来替代synchronized 关键字
 
