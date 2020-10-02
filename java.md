@@ -397,7 +397,7 @@
 
     Callable接口的call()方法允许抛出异常；Runnable的run()方法异常只能在内部消化，不能往上继续抛
 
-57. sychronize
+57. sychronize ：https://www.cnblogs.com/xuxinstyle/p/9690316.html
 
     1. java代码执行sychronize
     2. 字节码执行：moniterenter moniterexit
@@ -430,13 +430,18 @@
 
     对于IO密集型来说，一般是最佳线程数 =CPU 核数 * [ 1 +（I/O 耗时 / CPU 耗时）]
 
-59. java sychronize 原理：https://blog.csdn.net/javazejian/article/details/72828483
+65. java sychronize 原理：https://blog.csdn.net/javazejian/article/details/72828483
 
-60. 重入锁：线程获取到锁之后，再次获取该锁不会被阻塞
+    sychronize 的两种用法：
+
+    1. 对象锁：包括方法锁（默认锁对象为this当前实例对象）和同步代码块锁
+    2. 类锁：指sychronize 修饰的静态方法或指定锁为class 对象 https://www.imooc.com/video/18489
+
+66. 重入锁：线程获取到锁之后，再次获取该锁不会被阻塞
 
     ReetrantLock 设计目的是用来替代synchronized 关键字
 
-61. 对比：
+67. 对比：
 
     | 特征     | synchronize          | reetrantlock               |
     | :------- | -------------------- | -------------------------- |
@@ -447,13 +452,13 @@
     | 高级功能 | 无                   | 公平锁，非公平锁，中断唤醒 |
     | 性能     | 低-》高（1.5+）      | 高                         |
 
-62. cas算法：
+68. cas算法：
 
     锁是用来做并发最简单的方式，代价也是最高的，独占锁是一种悲观锁，synchronize 是独占锁，它假设最坏的情况，确保不会有其他线程干扰的情况下执行，会导致其他需要锁的线程挂起，等待有锁的线程释放锁；
 
     乐观锁：不加锁，假设没有冲突执行操作，如果有冲突失败就重试，直到成功，其中cas(比较与交换，compare and swap)无锁算法
 
-63. java虚拟机对synchronize的优化：锁的状态共有四种
+69. java虚拟机对synchronize的优化：锁的状态共有四种
 
     [https://blog.csdn.net/javazejian/article/details/72828483#synchronized%E5%BA%95%E5%B1%82%E8%AF%AD%E4%B9%89%E5%8E%9F%E7%90%86](https://blog.csdn.net/javazejian/article/details/72828483#synchronized底层语义原理)
 
@@ -467,11 +472,11 @@
 
     锁消除：
 
-64. 注解：https://www.jianshu.com/p/9471d6bcf4cf
+70. 注解：https://www.jianshu.com/p/9471d6bcf4cf
 
-65. 反射：https://www.jianshu.com/p/9be58ee20dee
+71. 反射：https://www.jianshu.com/p/9be58ee20dee
 
-66. 反射机制：在运行状态，对任意一个类，都能知道这个类的属性和方法，对任意一个对象，都能调用它的方法和属性，动态调用属性及动态调用方法的功能称为Java语言的反射机制
+72. 反射机制：在运行状态，对任意一个类，都能知道这个类的属性和方法，对任意一个对象，都能调用它的方法和属性，动态调用属性及动态调用方法的功能称为Java语言的反射机制
 
 73. 代理：jdk代理 与Cglib代理 区别：
 
@@ -481,7 +486,7 @@
     2. cglib动态代理生成的字节码更加复杂，生成的代理类是委托类的子类，且不能处理final 关键字修饰的方法
     3. jdk采用反射机制调用委托类的方法，cglib 采用类似索引的方式直接调用委托类方法
 
-74.  ConcurrentHashMap底层实现原理 : https://www.jianshu.com/p/865c813f2726
+74. ConcurrentHashMap底层实现原理 : https://www.jianshu.com/p/865c813f2726
 
 75. 水电费
 
