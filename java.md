@@ -271,47 +271,55 @@
 
 44. jvm结构：https://baijiahao.baidu.com/s?id=1632503816780923946&wfr=spider&for=pc
 
-             类的加载机制，jvm内存结构，gc(gc算法,垃圾回收器)，性能调优
-           
-             类的加载：加载，连接，初始化，使用， 卸载
-           
-             1. 加载：字节流转换为运行时数据结构并在堆中生成class对象
-             2. 连接：校验，准备，解析
-             3. 初始化：执行类的构造方法
-             4. 使用：实例化调用
-             5. 卸载： class对象不再被引用时，生命结束
-           
-             内存分配：https://www.jianshu.com/p/f36ca4e4bd10
-           
-             ​	堆：存放对象的实例，1. 年轻代(1/3):Eden:s0:s1 = 8:1:1 + 老年代（2/3）
-           
-             ​	方法区：存放虚拟机加载的类信息，常量，静态常量
-           
-             常见垃圾回收算法：标记清除，复制，标记整理，分代收集
-           
-             常见的垃圾回收器：G1收集器，Cms收集器，serial收集器，Parnew收集器
-           
-             JVM调优：
-           
-             1. 初始化内存尽量和最大内存报纸一致，避免内存不够用继续扩充内存
-             2. gc/full gc 频率不要太高，
+       https://blog.csdn.net/qq_41701956/article/details/81664921
 
-45. full gc 触发条件：https://www.cnblogs.com/williamjie/p/9516367.html
+       ```
+            类的加载机制，jvm内存结构，gc(gc算法,垃圾回收器)，性能调优
+          
+            类的加载：加载，连接，初始化，使用， 卸载
+          
+            1. 加载：字节流转换为运行时数据结构并在堆中生成class对象
+            2. 连接：校验，准备，解析
+            3. 初始化：执行类的构造方法
+            4. 使用：实例化调用
+            5. 卸载： class对象不再被引用时，生命结束
+          
+            [内存分配](https://www.jianshu.com/p/f36ca4e4bd10)
+          
+            ​	堆：存放对象的实例，1. 年轻代(1/3):Eden:s0:s1 = 8:1:1 + 老年代（2/3）
+          
+            ​	方法区：存放虚拟机加载的类信息，常量，静态常量
+          
+            常见垃圾回收算法：标记清除，复制，标记整理，分代收集
+          
+            常见的垃圾回收器：G1收集器，Cms收集器，serial收集器，Parnew收集器
+          
+            JVM调优：
+          
+            1. 初始化内存尽量和最大内存报纸一致，避免内存不够用继续扩充内存
+            2. gc/full gc 频率不要太高，
+       ```
 
-46. sychronized 与 lock区别：
+45. JMM ：java内存模型
 
-             sychronized : java关键字，异常释放锁，不会发生死锁，不可中断，锁状态不可判断,少量同步
+       
+
+46. full gc 触发条件：https://www.cnblogs.com/williamjie/p/9516367.html
+
+47. sychronized 与 lock区别：
+
+                sychronized : java关键字，异常释放锁，不会发生死锁，不可中断，锁状态不可判断,少量同步
+              
+                lock : 类，需要手动释放锁，可能发生死锁，可中断，锁状态可判断,适合大量同步
+
+48. voletile 与 sycronized区别：
+
+              https://blog.csdn.net/mifffy_java/article/details/99944946
            
-             lock : 类，需要手动释放锁，可能发生死锁，可中断，锁状态可判断,适合大量同步
-
-47. voletile 与 sycronized区别：
-
-           https://blog.csdn.net/mifffy_java/article/details/99944946
-        
-          作用：
-        
-          synchronized 表示只有一个线程可以获取作用对象的锁，执行代码，阻塞其他线程。
-          volatile 表示变量在 CPU 的寄存器中是不确定的，必须从主存中读取。保证多线程环境下变量的可见性；禁止指令重排序。
+             作用：
+           
+             synchronized 表示只有一个线程可以获取作用对象的锁，执行代码，阻塞其他线程。
+             volatile 表示变量在 CPU 的寄存器中是不确定的，必须从主存中读取。保证多线程环境下变量的可见性；禁止指令重排序。
 
 
        区别：
@@ -495,6 +503,10 @@
 75. ConcurrentHashMap底层实现原理 : https://www.jianshu.com/p/865c813f2726
 
 76. 水电费
+
+77. 是
+
+78. 方式
 
 
 
