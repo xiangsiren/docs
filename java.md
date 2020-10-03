@@ -299,20 +299,17 @@
             1. 初始化内存尽量和最大内存报纸一致，避免内存不够用继续扩充内存
             2. gc/full gc 频率不要太高，
        ```
-
-45. JMM ：java内存模型
-
        
 
-46. full gc 触发条件：https://www.cnblogs.com/williamjie/p/9516367.html
+45. full gc 触发条件：https://www.cnblogs.com/williamjie/p/9516367.html
 
-47. sychronized 与 lock区别：
+46. sychronized 与 lock区别：
 
                 sychronized : java关键字，异常释放锁，不会发生死锁，不可中断，锁状态不可判断,少量同步
               
                 lock : 类，需要手动释放锁，可能发生死锁，可中断，锁状态可判断,适合大量同步
 
-48. voletile 与 sycronized区别：   https://blog.csdn.net/mifffy_java/article/details/99944946
+47. voletile 与 sycronized区别：   https://blog.csdn.net/mifffy_java/article/details/99944946
 
            作用：
              synchronized 表示只有一个线程可以获取作用对象的锁，执行代码，阻塞其他线程。
@@ -498,7 +495,11 @@
 
 75. ConcurrentHashMap底层实现原理 : https://www.jianshu.com/p/865c813f2726
 
-76. 水电费
+76. JUC :
+
+    CountDownLatch : 倒计时锁
+
+    Semaphore：信号量主要用于限制某个资源的线程数量
 
 77. 是
 
