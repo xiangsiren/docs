@@ -501,6 +501,14 @@
 
     Semaphore：信号量主要用于限制某个资源的线程数量
 
+    CyclicBarrier: 循环屏障 同步工具类，允许线程相互等待，直到达到某个公共屏障点，与countDownLatch不同的是其在释放等待线程后可以重用 ；适用于多线程必须同时开始的场景
+
+    Condition 线程等待与唤醒：用于让指定线程等待唤醒，它必须与ReetrantLock重入锁配合使用；Condition 用于替代wait / notify 方法；notify只能随机唤醒等待的线程，而condition 可以唤醒指定的线程这有利于更好的并发控制
+
+    Callable 与 Runable一样代表着任务，区别在于callable有返回值并且可以抛出异常
+
+    Future是一个接口，用于表示异步计算的结果
+
 77. 是
 
 78. 方式
