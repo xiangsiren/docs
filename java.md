@@ -491,6 +491,8 @@
 
     乐观锁：不加锁，假设没有冲突执行操作，如果有冲突失败就重试，直到成功，其中cas(比较与交换，compare and swap)无锁算法
 
+    atomic 应用场景：虽然基于cas 的线程安全机制很高效，但是只适合一些粒度较小型，如计数器这样的需求用起来才有效；
+
 71. java虚拟机对synchronize的优化：锁的状态共有四种
 
     [https://blog.csdn.net/javazejian/article/details/72828483#synchronized%E5%BA%95%E5%B1%82%E8%AF%AD%E4%B9%89%E5%8E%9F%E7%90%86](https://blog.csdn.net/javazejian/article/details/72828483#synchronized底层语义原理)
