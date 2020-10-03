@@ -312,20 +312,16 @@
               
                 lock : 类，需要手动释放锁，可能发生死锁，可中断，锁状态可判断,适合大量同步
 
-48. voletile 与 sycronized区别：
+48. voletile 与 sycronized区别：   https://blog.csdn.net/mifffy_java/article/details/99944946
 
-              https://blog.csdn.net/mifffy_java/article/details/99944946
-           
-             作用：
-           
+           作用：
              synchronized 表示只有一个线程可以获取作用对象的锁，执行代码，阻塞其他线程。
              volatile 表示变量在 CPU 的寄存器中是不确定的，必须从主存中读取。保证多线程环境下变量的可见性；禁止指令重排序。
 
 
-       区别：
-    
+    区别：
        synchronized 可以作用于变量、方法、对象；volatile 只能作用于变量。
-       synchronized 可以保证线程间的有序性（猜测是无法保证线程内的有序性，即线程内的代码可能被 CPU 指令重排序）、原子性和可见性；volatile 只保证了可见性和有序性，无法保证原子性。
+       synchronized 可以保证线程间的有序性（猜测是无法保证线程内的有序性，即线程内的代码可能被 CPU 指令重排序）、 		原子性和可见性；volatile 只保证了可见性和有序性，无法保证原子性。
        synchronized 线程阻塞，volatile 线程不阻塞。
 
 48. Java 线程池参数：https://blog.csdn.net/ye17186/article/details/89467919
