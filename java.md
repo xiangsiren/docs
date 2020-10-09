@@ -549,7 +549,13 @@
 
 82. springboot 与 spring cloud 区别 : https://www.cnblogs.com/wwct/p/12942982.html
 
-83. 富士达
+83. jvm监控： 
+
+    springboot atuator : metrics , heapdump , threaddump
+
+    java自带的jvm 监控工具： jconsole ,jvisualvm
+
+    日志监控：ELK(elasticsearch + logstash + kibabna) 
 
 84. 啊
 
