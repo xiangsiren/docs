@@ -557,11 +557,17 @@
 
     日志监控：ELK(elasticsearch + logstash + kibabna) 
 
-84. 对称加密 与非对称加密：https://baijiahao.baidu.com/s?id=1659241588148726616&wfr=spider&for=pc
+84. 对称加密 与非对称加密：https://www.cnblogs.com/sdusrz/p/6233432.html
+    SHA或者MD5签名算法
+    RSA：非对称加密，有公钥和私钥
 
-85. fs
+85. fa 
 
-86. fa 
+86. ds
+
+87. dsa
+
+88. s
 
 
 
